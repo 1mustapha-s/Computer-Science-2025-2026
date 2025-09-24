@@ -6,4 +6,5 @@ Can you upload the code for questions 5 -9 and questions 6 - 11 on page 174 of t
 
 For the if else assignment, for question 5, you don't need to cast input to a string as it is the default datatype for it.
 
-Could you upload programs 8 and 9 for the if else work
+Could you upload programs 8 and 9 for the if else assignment
+
