@@ -12,3 +12,4 @@ while length!='':
         print(word[::-1])
 
 
+
