@@ -41,13 +41,35 @@ while (tries>0):
         break 
     elif guess != num:
         print('Try again')
-
-
-
-
-
-
-
+        
+#5
+print('Welcome to maths quiz! Type q to quit!')
+solution= 0
+q= False
+score= 0
+ans= 0
+lst= ['+','-','/','*']
+while q != True:
+    num1= random.randint(1,100)
+    num2= random.randint(1,100)
+    operator= random.choice(lst)
+    if operator== '+':
+        solution= num1 + num2
+    elif operator == '-':
+        solution= num1 - num2
+    elif operator== '/':
+        solution == num1 // num2
+    elif operator == '*':
+        solution = num1 * num2
+    ans= input(f'Calculate {num1} {operator} {num2}: ')
+    if ans == 'q':
+        break
+    ans= int(ans)
+    if ans== solution:
+        score+=1
+        print(f'{solution} is correct! Score: {score}')
+    elif ans!= solution:
+        print(f'{ans} is incorrect! The answer was {solution}! Score: {score}')
 
 
 
