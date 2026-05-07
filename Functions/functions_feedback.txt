@@ -1,0 +1,2 @@
+functions 2 and 3 are good
+function 4 doesn't work

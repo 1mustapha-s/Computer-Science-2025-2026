@@ -1,0 +1,3 @@
+The program should work with mixed case words: WeAtHeR, HELLO
+
+You should use .lower() from the python reference guide on the input to make it fit any input
